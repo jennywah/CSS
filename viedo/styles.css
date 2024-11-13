@@ -1,0 +1,35 @@
+body{
+    margin:0;
+}
+
+h1{
+    /* 置中 */
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size: 40px;
+    color:rgb(253, 253, 253);
+    
+    z-index:1;/*圖層*/
+    padding-bottom: 300px;/*預留*/
+}
+p{
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size: 40px;
+    color:rgb(253, 253, 253);
+    z-index:1;/*圖層*/
+    padding-bottom: 100px;/*預留*/
+}
+
+.video{
+    position: fixed;
+    top:0;
+    left:0;
+    min-width: 100%;
+    min-height:100% ;
+    z-index:0;/*圖層*/
+}
